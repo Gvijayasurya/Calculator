@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <h1>Calculater</h1>
+    <div class="main">
+
+        <div class="disp">
+            <p></p>
+        </div>
+
+        <table border="1" cellspacing="10">
+            <tr>
+                <td class="spl"><button onclick="AC()">AC</button></td><td class="spl"><button onclick="del()">DEL</button></td><td class="spl"><button onclick="per()">%</button></td><td class="spl"><button onclick="div()">/</button></td>
+            </tr>
+            <tr> 
+                <td><button onclick="seven()">7</button></td> <td><button onclick="eight()">8</button></td> <td><button onclick="nine()">9</button></td> <td class="spl"><button onclick="mul()">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="four()">4</button></td> <td><button onclick="five()">5</button></td> <td><button onclick="six()">6</button></td> <td class="spl"><button onclick="sub()">-</button></td>
+            </tr>
+            <tr> 
+                <td><button onclick="one()">1</button></td> <td><button onclick="two()">2</button></td> <td><button onclick="three()">3</button></td> <td class="spl"><button onclick="sum()">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="dzero()">00</button></td> <td><button onclick="zero()">0</button></td> <td><button onclick="point()">.</button></td> <td class="spl"><button onclick="equal()">=</button></td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <script src="./JavaScript.js"></script>
+</body>
+</html>
